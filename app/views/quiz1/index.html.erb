@@ -1,1 +1,12 @@
-<center><h1>This is the quiz1 page</h1></center>
+<!-- <center><h1> <%= @libraries.inspect %>         </h1></center> -->
+
+
+<% @libraries.each do |library| %>
+	<div class="transparent-box col-xs-10 col-xs-offset-1">
+		<h1> <%= library.author %></h1>
+		<h4> <%= library.title %> </h4>
+		<h4> <%= library.publisher %></h4>
+    <h4> <%= library.variant %> </h4>
+	</div>
+
+<% end %>

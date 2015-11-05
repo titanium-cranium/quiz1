@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+# import bootstrap-sass
+gem 'bootstrap-sass', '~> 3.3.5'
+
+
+#adding in simple form
+gem 'simple_form'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
